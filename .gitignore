@@ -1,0 +1,22 @@
+# PHP / Composer
+/vendor/
+composer.phar
+.phpunit.cache/
+.phpunit.result.cache
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.local.php
+
+# Logs and generated files
+*.log
+/cache/
+/tmp/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
